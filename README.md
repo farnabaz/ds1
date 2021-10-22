@@ -26,6 +26,6 @@ This will create the `dist/` directory for publishing to static hosting:
 yarn build
 ```
 
-To preview the static generated app, run `yarn start`
+To preview the static generated app, run `yarn start`.
 
 For detailed explanation on how things work, checkout [Docus](https://docus.dev).
