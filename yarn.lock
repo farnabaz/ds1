@@ -1014,17 +1014,17 @@
     prism-theme-vars "^0.2.2"
     scule "^0.2.1"
 
-"@docus/github@npm:@docus/github-edge", "@docus/github@npm:@docus/github-edge@1.0.4-27244002.2ba3933":
-  version "1.0.4-27244002.2ba3933"
-  resolved "https://registry.yarnpkg.com/@docus/github-edge/-/github-edge-1.0.4-27244002.2ba3933.tgz#db98d274b0014767c7d3338f14df75406edfe13e"
-  integrity sha512-/15PvPnx6oZsdHQrJuI+bSWg+6k+Ct/1v9zBrE7ArWOBoNvmqu/7TajhV+Php8e83gxCYQWt72Ht8/Qpn06P2w==
+"@docus/github@npm:@docus/github-edge", "@docus/github@npm:@docus/github-edge@1.0.4-27299002.c528615":
+  version "1.0.4-27299002.c528615"
+  resolved "https://registry.yarnpkg.com/@docus/github-edge/-/github-edge-1.0.4-27299002.c528615.tgz#0015a8fa7750213e524988b63deb5dbd2ceabce2"
+  integrity sha512-Np56vtpJ6s9PCTrAfQ+ZmhVauOpmxKipWV+6IEJ4ESlTJSTnRwwEwhqvPLsjtYBzsxcgkIYjZVJw+xv/+JzSaQ==
   dependencies:
+    "@docus/remark-github" "^11.1.0"
     defu "^5.0.0"
-    object-hash "^2.2.0"
-    ohmyfetch "^0.2.0"
-    remark-github "^11.1.0"
+    murmurhash-es "^0.1.1"
+    ohmyfetch "^0.4.8"
     ufo "^0.7.9"
-    unenv "^0.3.10"
+    unenv "^0.4.1"
 
 "@docus/mdc@npm:@docus/mdc-edge@0.1.0-27223896.f25079f":
   version "0.1.0-27223896.f25079f"
@@ -1075,6 +1075,17 @@
     windicss-analysis "^0.3.4"
     windicss-webpack-plugin "^1.4.9"
 
+"@docus/remark-github@^11.1.0":
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/@docus/remark-github/-/remark-github-11.1.0.tgz#ac94ce87e85e56b664895808007eaa44bcd86ae8"
+  integrity sha512-qak6GAnu+25UF/OMQzTehujWAIHH+Tr5M2etFiV9SlpBf6ul+xui4LR3tzqWhpBQAmhVdac95oNSMTQGsG++2Q==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    mdast-util-find-and-replace "^2.0.0"
+    mdast-util-to-string "^3.0.0"
+    unified "^10.0.0"
+    unist-util-visit "^4.0.0"
+
 "@docus/remark-mdc@npm:@docus/remark-mdc-edge":
   version "0.1.0-27233940.1814036"
   resolved "https://registry.yarnpkg.com/@docus/remark-mdc-edge/-/remark-mdc-edge-0.1.0-27233940.1814036.tgz#ad6365f0b2864eac0e2986f608458f9d1fe84409"
@@ -1107,6 +1118,11 @@
     glob "^7.2.0"
     graceful-fs "^4.2.8"
     jiti "^1.12.9"
+
+"@fastify/busboy@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.0.tgz#0709e9f4cb252351c609c6e6d8d6779a8d25edff"
+  integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
@@ -4492,6 +4508,11 @@ data-uri-to-buffer@^3.0.1:
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
 
+data-uri-to-buffer@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz#d8feb2b2881e6a4f58c2e08acfd0e2834e26222e"
+  integrity sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -4608,6 +4629,11 @@ defu@^5.0.0:
   resolved "https://registry.yarnpkg.com/defu/-/defu-5.0.0.tgz#5768f0d402a555bfc4c267246b20f82ce8b5a10b"
   integrity sha512-VHg73EDeRXlu7oYWRmmrNp/nl7QkdXUxkQQKig0Zk8daNmm84AbGoC8Be6/VVLJEKxn12hR0UBmz8O+xQiAPKQ==
 
+defu@^6.0.0:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.4.tgz#4e0c9cf9ff68fe5f3d7f2765cc1a012dfdcb0479"
+  integrity sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==
+
 delegate@^3.1.2:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
@@ -4645,6 +4671,11 @@ destr@^1.0.0, destr@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/destr/-/destr-1.1.0.tgz#2da6add6ba71e04fd0abfb1e642d4f6763235095"
   integrity sha512-Ev/sqS5AzzDwlpor/5wFCDu0dYMQu/0x2D6XfAsQ0E7uQmamIgYJ6Dppo2T2EOFVkeVYWjc+PCLKaqZZ57qmLg==
+
+destr@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/destr/-/destr-1.2.2.tgz#7ba9befcafb645a50e76b260449c63927b51e22f"
+  integrity sha512-lrbCJwD9saUQrqUfXvl6qoM+QN3W7tLV5pAOs+OqOmopCCz/JkE05MHedJR1xfk4IAnZuJXPVuN5+7jNA2ZCiA==
 
 destroy@^1.0.4, destroy@~1.0.4:
   version "1.0.4"
@@ -5290,6 +5321,14 @@ fetch-blob@^3.1.2:
   dependencies:
     web-streams-polyfill "^3.0.3"
 
+fetch-blob@^3.1.4:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-3.2.0.tgz#f09b8d4bbd45adc6f0c20b7e787e793e309dcce9"
+  integrity sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==
+  dependencies:
+    node-domexception "^1.0.0"
+    web-streams-polyfill "^3.0.3"
+
 figgy-pudding@^3.5.1:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
@@ -5434,6 +5473,13 @@ fork-ts-checker-webpack-plugin@^6.1.1:
     schema-utils "2.7.0"
     semver "^7.3.2"
     tapable "^1.0.0"
+
+formdata-polyfill@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz#24807c31c9d402e002ab3d8c720144ceb8848423"
+  integrity sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==
+  dependencies:
+    fetch-blob "^3.1.2"
 
 fraction.js@^4.1.1:
   version "4.1.1"
@@ -7899,6 +7945,11 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+murmurhash-es@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/murmurhash-es/-/murmurhash-es-0.1.1.tgz#e4d7943eed19b0c1b66f5bb071fce52c7a052782"
+  integrity sha512-IfA8KVe9dxv28F9KSJ8EpJP2jgO1br6xInnFaPDjQKosEfpTMAx8v1eGCUzOvcZDstadm3mdP95JILrYs0mNsg==
+
 mustache@^2.3.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.3.2.tgz#a6d4d9c3f91d13359ab889a812954f9230a3d0c5"
@@ -7992,12 +8043,22 @@ node-addon-api@^4.2.0:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-4.2.0.tgz#117cbb5a959dff0992e1c586ae0393573e4d2a87"
   integrity sha512-eazsqzwG2lskuzBqCGPi7Ac2UgOoMz8JVOXVhTvvPDYhthvNpefx8jWD8Np7Gv+2Sz0FlPWZk0nJV0z598Wn8Q==
 
+node-domexception@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
+  integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
+
 node-emoji@^1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.11.0.tgz#69a0150e6946e2f115e9d7ea4df7971e2628301c"
   integrity sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==
   dependencies:
     lodash "^4.17.21"
+
+node-fetch-native@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-0.1.8.tgz#19e2eaf6d86ac14e711ebd2612f40517c3468f2a"
+  integrity sha512-ZNaury9r0NxaT2oL65GvdGDy+5PlSaHTovT6JV5tOW07k1TQmgC0olZETa4C9KZg0+6zBr99ctTYa3Utqj9P/Q==
 
 node-fetch@^2.6.1, node-fetch@^2.6.2, node-fetch@^2.6.5:
   version "2.6.5"
@@ -8013,6 +8074,15 @@ node-fetch@^3.0.0:
   dependencies:
     data-uri-to-buffer "^3.0.1"
     fetch-blob "^3.1.2"
+
+node-fetch@^3.2.3:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.3.2.tgz#d1e889bacdf733b4ff3b2b243eb7a12866a0b78b"
+  integrity sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==
+  dependencies:
+    data-uri-to-buffer "^4.0.0"
+    fetch-blob "^3.1.4"
+    formdata-polyfill "^4.0.10"
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -8366,6 +8436,16 @@ ohmyfetch@^0.3.1:
     destr "^1.1.0"
     node-fetch "^2.6.1"
     ufo "^0.7.9"
+
+ohmyfetch@^0.4.8:
+  version "0.4.21"
+  resolved "https://registry.yarnpkg.com/ohmyfetch/-/ohmyfetch-0.4.21.tgz#6850db751fc7bbf08153aa8b11ff1ef45fcfd963"
+  integrity sha512-VG7f/JRvqvBOYvL0tHyEIEG7XHWm7OqIfAs6/HqwWwDfjiJ1g0huIpe5sFEmyb+7hpFa1EGNH2aERWR72tlClw==
+  dependencies:
+    destr "^1.2.0"
+    node-fetch-native "^0.1.8"
+    ufo "^0.8.6"
+    undici "^5.12.0"
 
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
@@ -10123,17 +10203,6 @@ remark-gfm@^2.0.0:
     micromark-extension-gfm "^1.0.0"
     unified "^10.0.0"
 
-remark-github@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-11.1.0.tgz#b19a0801059822f1f5e077d449683900df108ca8"
-  integrity sha512-bI3Xuf3Kmq6GkYDMc7wjqTps1z+JAQ1VkQG8hHfq7A/HwoXJvatGNMguEx4Ci1v4aeu7cMalWDERJK1bQmoBkg==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    mdast-util-find-and-replace "^2.0.0"
-    mdast-util-to-string "^3.0.0"
-    unified "^10.0.0"
-    unist-util-visit "^4.0.0"
-
 remark-parse@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-10.0.0.tgz#65e2b2b34d8581d36b97f12a2926bb2126961cb4"
@@ -11413,6 +11482,11 @@ ufo@^0.7.9:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.9.tgz#0268e3734b413c9ed6f3510201f42372821b875c"
   integrity sha512-6t9LrLk3FhqTS+GW3IqlITtfRB5JAVr5MMNjpBECfK827W+Vh5Ilw/LhTcHWrt6b3hkeBvcbjx4Ti7QVFzmcww==
 
+ufo@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.6.tgz#c0ec89bc0e0c9fa59a683680feb0f28b55ec323b"
+  integrity sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==
+
 uglify-js@^3.5.1:
   version "3.14.2"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.14.2.tgz#d7dd6a46ca57214f54a2d0a43cad0f35db82ac99"
@@ -11433,6 +11507,13 @@ unctx@^1.0.2:
   resolved "https://registry.yarnpkg.com/unctx/-/unctx-1.0.2.tgz#d8d9c83a0965aa277f61058c94548fcee6861e48"
   integrity sha512-qxRfnQZWJqkg180JeOCJEvtjj5/7wnWVqkNHln8muY5/z8kMWBFqikFBPwIPCQrZJ+jtaSWkVHJkuHUAXls6zw==
 
+undici@^5.12.0:
+  version "5.28.3"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.28.3.tgz#a731e0eff2c3fcfd41c1169a869062be222d1e5b"
+  integrity sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
+
 unenv@^0.3.10:
   version "0.3.10"
   resolved "https://registry.yarnpkg.com/unenv/-/unenv-0.3.10.tgz#949e4c8f76ceb6f076f01914761418274690ad93"
@@ -11444,6 +11525,21 @@ unenv@^0.3.10:
     inherits "^2.0.4"
     mime "^2.4.6"
     node-fetch "^2.6.2"
+    process "^0.11.10"
+    upath "^2.0.1"
+    util "^0.12.4"
+
+unenv@^0.4.1:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/unenv/-/unenv-0.4.6.tgz#72b78678a1a57db1ed0ef1d8394add2f4da59f9c"
+  integrity sha512-zu6y8SGki8o+7lTAXkvk6Xm9iHjvBxyIxhF7DP94KzSEhkkCtD7/Mbpx/qaM4nRIEnVuIzhYwauP2DWecictmQ==
+  dependencies:
+    buffer "^6.0.2"
+    defu "^6.0.0"
+    events "^3.2.0"
+    inherits "^2.0.4"
+    mime "^2.4.6"
+    node-fetch "^3.2.3"
     process "^0.11.10"
     upath "^2.0.1"
     util "^0.12.4"
